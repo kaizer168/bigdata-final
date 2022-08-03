@@ -49,42 +49,67 @@ Catalyst Optimizer:
  Aggregate [count(1) AS count#1755L]
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.ColumnPruning ===
  Aggregate [count(1) AS count#1816L]
+
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.ReorderJoin ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1828L DESC NULLS LAST], true
+
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.PushDownPredicates ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1828L DESC NULLS LAST], true
+
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.ColumnPruning ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1828L DESC NULLS LAST], true
+
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.NullPropagation ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                            OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1828L DESC NULLS LAST], true
+
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.ConstantFolding ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                            OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1828L DESC NULLS LAST], true
+
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.InferFiltersFromConstraints ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                            OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1828L DESC NULLS LAST], true
+ 
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.PushDownPredicates ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1828L DESC NULLS LAST], true
+ 
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.PushDownPredicates ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1828L DESC NULLS LAST], true
+ 
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.PushDownPredicates ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1828L DESC NULLS LAST], true
+ 
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.RewritePredicateSubquery ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                               OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1828L DESC NULLS LAST], true
+ 
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.ReorderJoin ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1844L DESC NULLS LAST], true
+ 
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.PushDownPredicates ===
- OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
+ OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1844L DESC NULLS LAST], true
+ 
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.ColumnPruning ===
  OverwriteByExpression RelationV2[] noop-table, true, true                                                                                                                                                                                                                                                                                                                                                                                                                                                                OverwriteByExpression RelationV2[] noop-table, true, true
  +- Sort [cnt#1844L DESC NULLS LAST], true
