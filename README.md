@@ -4,7 +4,7 @@
 
 题目一：分析一条TPCDS SQL
 
-Q73 优化规则截图请看附件SQL-UI-1.png, SQL-UI-2.png, SQL-UI-3.png, SQL-UI-4.png, SQL-UI-5.png, SQL-UI-6.png, SQL-UI-7.png.
+Q73 优化规则截图请看附件SQL-UI-1.png, SQL-UI-2.png, SQL-UI-3.png, SQL-UI-4.png, SQL-UI-5.png, SQL-UI-6.png.
 
 Q73 使用了优化规则 Catalyst Optimizer:
 
