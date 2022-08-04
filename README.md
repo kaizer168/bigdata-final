@@ -6,7 +6,7 @@
 
 Q73 优化规则截图请看附件sql-ui-1.png, sql-ui-2.png, sql-ui-3.png, sql-ui-4.png, sql-ui-5.png, sql-ui-6.png.
 
-Q73 使用了优化规则 Catalyst Optimizer:
+Q73 使用了以下优化规则 Catalyst Optimizer:
 
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.ReorderJoin ===
  +- Sort [cnt#1828L DESC NULLS LAST], true
