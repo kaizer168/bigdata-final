@@ -1,5 +1,8 @@
 # bigdata-final
 
+毕业设计
+题目一：分析一条TPCDS SQL
+
 Catalyst Optimizer:
 
 === Applying Rule org.apache.spark.sql.catalyst.optimizer.ReorderJoin ===
